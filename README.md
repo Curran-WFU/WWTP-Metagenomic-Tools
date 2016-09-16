@@ -1,2 +1,4 @@
 # WWTP-Metagenomic-Tools
-A set of small databases and programs for analyzing metagenomes from wastewater treatment plant reactors. 
+A set of small databases and programs for analyzing metagenomes from wastewater treatment plant reactors. These programs will run on personal computers.  
+Input metagenome file names and file formats must be standardized.  Input files should be "comma-delimited" (*.csv) and have two columns of data, the first should conatin genus names, and the second should contain the number of "hits" for the corresponding genus.  The file should also be sorted from high-to-low numbers of hits.  The Python progam will determine the total number of hits for the database and then calculate frequencies for each genus.  Filenames must have 6 parts, each separated by a "."  As an example:  A.Z.USA.4663792.3_organism_genus_hits.csv   In this filename, the first two letters are for internal tracking, the third is the country where the sample was isolated, the fourth is the metagenome number assigned by MG-RAST, the fifth contains information about the data in the file, and "csv" is the designation for a comma-delimited file.
+
