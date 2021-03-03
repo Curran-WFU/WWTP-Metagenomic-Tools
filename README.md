@@ -1,6 +1,6 @@
 # WWTP-Metagenomic-Tools
 
-A set of small databases and programs for analyzing metagenomes from wastewater treatment plant reactors. These programs will run either in Google Colaboratory or on personal computers.  
+A set of small databases and a program for analyzing metagenomes from wastewater treatment plant reactors. These programs will run either in Google Colaboratory or on personal computers.  
 
 A.  Components in this site.
 
