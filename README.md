@@ -15,8 +15,7 @@ Four database files:
 
 A program, "MG_Plotter.ipynb", that will make plots of your input file vs. the reference ASB database.  
 
-B.  Other useful information. 
-All input metagenome file names and file formats must be standardized.  
+B.  All input metagenome file names and file formats must be standardized.  
 
 Input files should be "comma-delimited" (*.csv) and have two columns of data, the first should conatin genus names, and the second should contain the number of "hits" for the corresponding genus.  The file should also be sorted from high-to-low by numbers of hits.  The Python progam will determine the total number of hits for the database and then calculate frequencies for each genus.  
 
