@@ -1,10 +1,8 @@
 # WWTP-Metagenomic-Tools
 
-A set of small databases and a program for analyzing metagenomes from wastewater treatment plant reactors. The program will run either in Google Colaboratory or on personal computers.  
+A set of small databases and a program for analyzing genus-level taxons in metagenomes from wastewater treatment plant reactors. The program will run either in Google Colaboratory or on personal computers.  
 
-A.  Components in this site.
-
-Four database files:
+A.  Database files:
 
   1. The database of seven Activated Sludeg Aeration Basins, MGIT.A_H.Ex.C.500.Genera.Freq.csv ; 
   
@@ -14,9 +12,9 @@ Four database files:
   
   4.  A metagenome from a high-ammonia adapted ASB in Switzerland, A.e.Switzerland.4568625.3_organism_genus_hits.csv .
 
-A program:  "MG_Plotter.ipynb", that will make plots of your input file vs. the reference ASB database.  
+B. A program for comparing metagenomes to a reference ASB genus database:  "MG_Plotter.ipynb", that will make plots of your input file vs. the reference ASB database.  
 
-B.  All input metagenome file names and file formats must be standardized.  
+C.  All input metagenome file names and file formats must be standardized.  
 
 Input files should be "comma-delimited" (*.csv) and have two columns of data, the first should conatin genus names, and the second should contain the number of "hits" for the corresponding genus.  The file should also be sorted from high-to-low by numbers of hits.  The Python progam will determine the total number of hits for the database and then calculate frequencies for each genus.  
 
