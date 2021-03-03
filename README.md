@@ -6,15 +6,15 @@ A.  Components in this site.
 
 Four database files:
 
-  The database of seven Activated Sludeg Aeration Basins, MGIT.A_H.Ex.C.500.Genera.Freq.csv ; 
+  1. The database of seven Activated Sludeg Aeration Basins, MGIT.A_H.Ex.C.500.Genera.Freq.csv ; 
   
-  The same database but without the ASB from Switzerland, MGIT.A_H.Ex.EC.500.Genera.Freq.csv ;
+  2. The same database but without the ASB from Switzerland, MGIT.A_H.Ex.EC.500.Genera.Freq.csv ;
   
-  A metagenome from an ASB effluent that produced foam in the final clarifer, A.I.Fm1.4663792.3_organism_genus_hits.csv ;
+  3.  A metagenome from an ASB effluent that produced foam in the final clarifer, A.I.Fm1.4663792.3_organism_genus_hits.csv ;
   
-  A metagenome from a high-ammonia adapted ASB in Switzerland, A.e.Switzerland.4568625.3_organism_genus_hits.csv .
+  4.  A metagenome from a high-ammonia adapted ASB in Switzerland, A.e.Switzerland.4568625.3_organism_genus_hits.csv .
 
-A program, "MG_Plotter.ipynb", that will make plots of your input file vs. the reference ASB database.  
+A program:  "MG_Plotter.ipynb", that will make plots of your input file vs. the reference ASB database.  
 
 B.  All input metagenome file names and file formats must be standardized.  
 
